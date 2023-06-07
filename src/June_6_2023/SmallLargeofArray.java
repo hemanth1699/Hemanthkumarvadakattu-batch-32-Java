@@ -15,6 +15,6 @@ public class SmallLargeofArray {
             }
             i++;
         }
-        System.out.println("Smallest number: " + smallnumb + " ,Largest number: " + largenumb);
+        System.out.printf("Smallest number is: %d , Largest number is: %d%n", smallnumb, largenumb);
     }
 }

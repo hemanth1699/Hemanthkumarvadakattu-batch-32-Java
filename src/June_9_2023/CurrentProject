@@ -1,0 +1,7 @@
+I worked on the Client Transfer Application (CTA), an intranet program that facilitates ACH, Cheques, Wires, and
+Journal transactions, among other types of money transfer activities. Our field officers, financial advisers, and bank
+specialists can use different screens for each sort of money transfer transaction because our UI was created as a
+single page application using Angular. For all types of transactions, we have microservices in the backend that are
+hosted in the cloud. We utilized Relational DB instances from AWS, a follow-up server DB. Additionally, we have
+a Redis cache that handles all of our read operations in front of all of our DBs. For each read and write operation,
+ we have a separate instance of the database. Additionally, all microservices hosted on AWS.

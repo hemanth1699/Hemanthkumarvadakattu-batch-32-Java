@@ -12,5 +12,5 @@ public class ThreadEx {
             NumberThread t = new NumberThread();
             t.start();
         }
-    }
+}
 

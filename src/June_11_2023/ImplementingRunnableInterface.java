@@ -12,7 +12,6 @@ public class ImplementingRunnableInterface implements Runnable {
 }
 
 class Main {
-
     public static void main(String[] args) {
         System.out.println("Create a Thread by Implementing Runnable Interface");
         ImplementingRunnableInterface implementingRunnableInterface = new ImplementingRunnableInterface();
